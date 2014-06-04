@@ -119,7 +119,7 @@
                             	if (found)
                             		continue;
                             	
-                                var hasData = currentData.hasOwnProperty(data);
+                                var hasData = currentData.hasOwnProperty('data');
                                 if(!currentData.hasOwnProperty('value') && (currentData.hasOwnProperty('data') && currentData.data.hasOwnProperty('divider'))){
                                     console.error('currentData must have a property of value');
                                     break;
